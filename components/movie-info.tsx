@@ -1,7 +1,7 @@
 import { API_URL } from "../app/(home)/page";
 import infoStyles from "../styles/movie-info.module.css"
 
-async function getMovie(id: string) {
+export async function getMovie(id: string) {
   //console.log(`Fetching movies: ${Date.now()}`);
   //await new Promise((resolve) => setTimeout(resolve, 3000));
   //throw new error("Error!");
